@@ -1,0 +1,45 @@
+#contact-me-btn {
+  color: rgb(255,255,255);
+  font-size: 16px;
+  animation-name: fade-in;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+
+    15% {
+      opacity: .15;
+    }
+
+    25% {
+      opacity: .25;
+    }
+
+    50% {
+      opacity: .5;
+    }
+
+    65% {
+      opacity: .65;
+    }
+
+    75% {
+      opacity: .75;
+    }
+
+    100% {
+      opacity: 1;
+    }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  #contact-me-btn {
+    font-size: 32px;
+  }
+}
