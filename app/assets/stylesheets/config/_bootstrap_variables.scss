@@ -24,3 +24,45 @@ $border-radius-lg: 2px;
 $border-radius-sm: 2px;
 
 // Override other variables below!
+@media only screen and (max-width: 600px) {
+  .top {
+    width: 80%;
+  }
+
+  #navbar-text {
+    font-size: 10px;
+  }
+
+  h1:after, h1:before {
+    width: 10px;
+  }
+
+  h2:after, h2:before {
+    width: 10px;
+  }
+
+  h3:after, h3:before {
+    width: 0px;
+  }
+
+  #banner-title {
+    line-height: 50px;
+  }
+
+  .navbar-wagon-item {
+    cursor: pointer;
+    padding: 0 5px;
+  }
+
+  .about-text-right {
+    border: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .about-text-left {
+    width: 100%;
+    border: none;
+    text-align: center
+  }
+}

@@ -1,0 +1,58 @@
+.top {
+  height: 1px;
+  width: 30%;
+  align-items: center;
+  color: rgb(255,255,255);
+  background-color: rgb(255,255,255);
+  border: none;
+  opacity: 0.6;
+}
+
+.banner {
+  color: rgb(255,255,255);
+  text-align: center;
+  height: 100vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center bottom;
+}
+
+.banner h3 {
+  font-size: 50px;
+  font-weight: lighter;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+  color: rgb(255,255,255);
+  margin-bottom: 25px;
+}
+
+.banner p {
+  font-size: 25px;
+  margin-bottom: 30px;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+  color: rgb(255,255,255);
+}
+
+#line-height {
+  line-height: 200%;
+  margin-bottom: 0;
+}
+
+#banner-title {
+  margin-top: 100px;
+  line-height: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  #banner-title {
+    line-height: 50px;
+  }
+
+  .navbar-wagon-item {
+    cursor: pointer;
+    padding: 0 5px;
+  }
+}
+

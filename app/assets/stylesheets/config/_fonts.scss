@@ -1,9 +1,9 @@
 // Import Google fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Work+Sans:400,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:400,100,300,700,500");
 
 // Define fonts for body and headers
-$body-font: "Work Sans", "Helvetica", "sans-serif";
-$headers-font: "Nunito", "Helvetica", "sans-serif";
+$body-font: "Open Sans", "Helvetica", "sans-serif";
+$headers-font: "Raleway", "Helvetica", "sans-serif";
 
 // To use a font file (.woff) uncomment following lines
 // @font-face {
@@ -14,3 +14,76 @@ $headers-font: "Nunito", "Helvetica", "sans-serif";
 //        font-url('FontFile.ttf') format('truetype')
 // }
 // $my-font: "Font Name";
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #225277;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+h1:after, h1:before {
+  content: '';
+  width: 75px;
+  height: 2px;
+  background: #225277;
+  margin: 0 10px;
+}
+
+h2:after, h2:before {
+  content: '';
+  width: 75px;
+  height: 2px;
+  background: #FFFFFF;
+  margin: 0 10px;
+}
+
+h3:after, h3:before {
+  content: '';
+  width: 75px;
+  height: 2px;
+  background: #FFFFFF;
+  margin: 0 10px;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
+.light-font {
+  font-weight: lighter;
+}
+
+@media only screen and (max-width: 600px) {
+  h1:after, h1:before {
+    width: 10px;
+  }
+
+  h2:after, h2:before {
+    width: 10px;
+  }
+
+  h3:after, h3:before {
+    width: 0px;
+  }
+}
