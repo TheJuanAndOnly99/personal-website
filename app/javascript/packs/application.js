@@ -21,3 +21,7 @@ import 'bootstrap';
 
 import { loadDynamicBannerText } from '../components/banner';
 loadDynamicBannerText();
+
+import { removeLoadingClass } from '../components/animation_load';
+removeLoadingClass();
+

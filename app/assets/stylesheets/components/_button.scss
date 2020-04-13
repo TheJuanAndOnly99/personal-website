@@ -4,6 +4,12 @@
   animation-name: fade-in;
   animation-duration: 2s;
   animation-iteration-count: 1;
+  position: absolute;
+  bottom: 100px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 150px;
 }
 
 @keyframes fade-in {
@@ -41,5 +47,6 @@
 @media only screen and (max-width: 600px) {
   #contact-me-btn {
     font-size: 32px;
+    width: 90%;
   }
 }

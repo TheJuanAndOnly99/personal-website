@@ -8,6 +8,7 @@
   align-items: center;
   justify-content: center;
   background-position: center bottom;
+  position: relative;
 }
 
 
@@ -80,3 +81,8 @@
   }
 }
 
+.js-loading *,
+.js-loading *:before,
+.js-loading *:after {
+  animation-play-state: paused !important;
+}
