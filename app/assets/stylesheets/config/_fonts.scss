@@ -15,33 +15,6 @@ $headers-font: "Raleway", "Helvetica", "sans-serif";
 // }
 // $my-font: "Font Name";
 
-h1 {
-  font-family: 'Raleway', sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 24px;
-  color: #225277;
-}
-
-h2 {
-  font-family: 'Raleway', sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 24px;
-  color: #FFFFFF;
-}
-
-h3 {
-  font-family: 'Raleway', sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 16px;
-  color: #FFFFFF;
-}
-
 h1:after, h1:before {
   content: '';
   width: 75px;
