@@ -59,6 +59,7 @@
   animation-name: width;
   animation-duration: 1s;
   animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 @keyframes width {
@@ -118,6 +119,10 @@
 
 .navbar-home-right ul {
   padding-left: 0px;
+}
+
+.about-nav:hover {
+
 }
 
 @media only screen and (max-width: 600px) {
