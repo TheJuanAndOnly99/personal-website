@@ -52,7 +52,11 @@
 .social-links > a {
   font-size: 48px;
   margin: 0 8px;
-  color: white;
+  color: rgb(255, 255, 255);
+}
+
+.social-links > a:hover {
+  color: rgb(235, 235, 235);
 }
 
 .banner p {
@@ -77,12 +81,16 @@
 
 @media only screen and (max-width: 600px) {
   #banner-title {
-    line-height: 50px;
+    // line-height: 50px;
   }
 
-  .navbar-wagon-item {
+  .navbar-home-item {
     cursor: pointer;
     padding: 0 5px;
+  }
+
+  .banner > h3 {
+    font-size: 50px;
   }
 }
 
