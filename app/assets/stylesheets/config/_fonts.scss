@@ -31,17 +31,17 @@ h2:after, h2:before {
   margin: 0 10px;
 }
 
-h3:after, h3:before {
-  content: '';
-  width: 75px;
-  height: 2px;
-  background: #FFFFFF;
-  margin: 0 10px;
-  animation-name: width-banner;
-  animation-duration: 1s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-}
+// h3:after, h3:before {
+//   content: '';
+//   width: 75px;
+//   height: 2px;
+//   background: #FFFFFF;
+//   margin: 0 10px;
+//   animation-name: width-banner;
+//   animation-duration: 1s;
+//   animation-iteration-count: 1;
+//   animation-fill-mode: forwards;
+// }
 
 @keyframes width-banner {
   0% {
