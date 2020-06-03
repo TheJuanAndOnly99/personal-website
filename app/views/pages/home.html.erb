@@ -1,6 +1,10 @@
-<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://images.unsplash.com/photo-1439694458393-78ecf14da7f9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=99cab5f446a82f1261c766567992fe1e&auto=format&fit=crop&w=2850&q=80');">
+<section class="banner showcase"> <!-- style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://images.unsplash.com/photo-1439694458393-78ecf14da7f9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=99cab5f446a82f1261c766567992fe1e&auto=format&fit=crop&w=2850&q=80');"> -->
+  <div class="video-container">
+    <%= video_tag "video.mov", autoplay: :autoplay, loop: :loop, muted: :muted %>
+    <!-- <video src="/../../assets/images/video.mov"  autoplay muted loop></video> -->
+  </div>
   <%= render 'shared/navbar' %>
-  <div class="banner-content">
+  <div class="banner-content content">
     <h3 id="banner-title">Juan Estrella</h3>
     <p>
       <span id="banner-typed-text"></span>
@@ -11,7 +15,7 @@
     </div>
     <a id="contact-me-btn" href="#contact" class="navbar-home-item navbar-home-link btn btn-primary py-3">Contact Me!</a>
   </div>
-</div>
+</section>
 <%= render 'shared/about_me' %>
 <%= render 'shared/projects' %>
 <%= render 'shared/skills' %>

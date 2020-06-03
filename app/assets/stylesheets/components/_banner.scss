@@ -3,19 +3,65 @@
   text-align: center;
   height: 100vh;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
-  background-size: cover !important;
+  background-size: cover; //!important;
   display: flex;
   align-items: center;
   justify-content: center;
   background-position: center bottom;
   position: relative;
+  background-image: url('cover.jpg')
 }
-
 
 .banner-content {
   animation-name: fade-in;
   animation-duration: 1s;
   animation-iteration-count: 1;
+}
+
+.showcase {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  padding: 0 20px;
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: no-repeat center
+    center/cover;
+}
+
+.video-container video {
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+}
+
+.video-container:after {
+  content: '';
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+}
+
+.content {
+  z-index: 2;
 }
 
 @keyframes fade-in {
