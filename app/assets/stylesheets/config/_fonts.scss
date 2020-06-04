@@ -1,6 +1,6 @@
 // Import Google fonts
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:400,100,300,700,500");
-
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
 // Define fonts for body and headers
 $body-font: "Open Sans", "Helvetica", "sans-serif";
 $headers-font: "Raleway", "Helvetica", "sans-serif";
@@ -19,7 +19,7 @@ h1:after, h1:before {
   content: '';
   width: 75px;
   height: 2px;
-  background: #225277;
+  background: #3a4052;
   margin: 0 10px;
 }
 
@@ -27,7 +27,7 @@ h2:after, h2:before {
   content: '';
   width: 75px;
   height: 2px;
-  background: #FFFFFF;
+  background: #3a4052;
   margin: 0 10px;
 }
 

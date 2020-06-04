@@ -1,0 +1,31 @@
+.this-is-me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-img1 {
+  object-fit: cover;
+  object-position: top;
+}
+
+.arrow-img {
+  transform: rotate(300deg);
+}
+
+.this-is-me-text {
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 44px;
+  text-align: center;
+  transform: rotate(330deg);
+}
+
+@media only screen and (max-width: 600px) {
+  .arrow-img {
+    display: none;
+  }
+
+  .this-is-me-text {
+    display: contents;
+  }
+}
