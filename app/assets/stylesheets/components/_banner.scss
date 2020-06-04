@@ -98,11 +98,13 @@
 .social-links > a {
   font-size: 48px;
   margin: 0 8px;
-  color: rgb(255, 255, 255);
+  color: rgb(235, 235, 235);
 }
 
 .social-links > a:hover {
-  color: rgb(235, 235, 235);
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: -2px;
 }
 
 .banner p {
