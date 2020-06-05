@@ -1,0 +1,56 @@
+.projects-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.projects-row {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 16px 0px;
+  color: #ffffff;
+}
+
+.project-img {
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin: 16px auto;
+}
+
+#my-projects {
+  background-color: #3a4052;
+  color: #ffffff;
+}
+
+#projects-title {
+  color: #ffffff;
+}
+
+.white-text {
+  color: #ffffff;
+}
+
+.projects-p1, .projects-p2, .projects-p3 {
+ margin: 0 50px;
+}
+
+
+.projects-line {
+  background-color: #ffffff
+}
+
+#vamos-title {
+  color: $vamos;
+  font-size: 44px;
+  font-family: "Roboto", sans-serif;
+}
+
+.vamos-link {
+  margin-top: 40px;
+}
+
+#quedem-title {
+  color: $quedem;
+  font-size: 56px;
+  font-family: "Lobster";
+}

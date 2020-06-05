@@ -1,6 +1,8 @@
 // Import Google fonts
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:400,100,300,700,500");
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 // Define fonts for body and headers
 $body-font: "Open Sans", "Helvetica", "sans-serif";
 $headers-font: "Raleway", "Helvetica", "sans-serif";
@@ -29,6 +31,10 @@ h2:after, h2:before {
   height: 2px;
   background: #3a4052;
   margin: 0 10px;
+}
+
+#projects-title:after, #projects-title:before {
+  background: #ffffff;
 }
 
 // h3:after, h3:before {

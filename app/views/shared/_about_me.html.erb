@@ -10,39 +10,51 @@
       </div>
 
       <div class="about-header">
-        <p><strong>Yes you!</strong> I can't believe you're actually reading this. Welcome to my website! A special place on the internet (well at least for me it is 😅) where I hope to showcase my journey as a developer.</p>
+        <div class="about-row">
+          <p class="attention-grab"><strong>Yes you!</strong> I can't believe you're actually reading this. Welcome to my website! A special place on the internet (well at least for me it is 😅) where I hope to showcase my journey as a developer.</p>
+        </div>
           <div class="this-is-me">
             <p class="this-is-me-text">This is <br>me!</p>
-              <%= image_tag "arrow.png", width: 120, height: 120, class: "arrow-img" %>
+              <%= image_tag "arrow.png", width: 120, height: 120, class: "arrow-img-me" %>
               <%= image_tag "Juan-Estrella-HD.JPG", width: 200, height: 200, class: "avatar fade-in-right about-img1" %>
           </div>
       </div>
 
       <div class="about-row">
         <div class="about-p1">
-          <p><strong>It's nice to meet you!</strong> Thanks for stopping by. If you're interested in learning a bit about my story keep reading! If you want to jump to my projects click <a href="#my-projects"><u><strong>here</strong></u>.</a></p>
+          <p><strong>It's nice to meet you!</strong> Thanks for stopping by. If you're interested in learning a bit about me keep reading! If you want to jump to my projects click <a href="#my-projects"><u><strong>here</strong></u>.</a></p>
         </div>
-        <div class="">
-          <%= image_tag "juan-in-moncalieri.JPG", width: 200, height: 200, class: "avatar fade-in-right about-img1" %>
+        <div class="" style="display: none;">
+          <%= image_tag "cliffs-of-moher.JPG", width: 200, height: 200, class: "avatar fade-in-right about-img1" %>
         </div>
       </div>
 
-      <div class="about-row">
+      <div class="about-row image-with-quote">
         <div class="about-img2">
           <%= image_tag "cliffs-of-moher.JPG", width: 200, height: 200, class: "avatar fade-in-right" %>
         </div>
         <div class="about-p2">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est delectus ullam quae rerum eligendi doloribus labore cumque quam soluta natus, debitis provident cupiditate voluptatem sapiente deserunt aliquid tempore quibusdam quis.</p>
+          <p>"If knowledge is power,<br><strong>learning</strong> is your superpower.”</p>
+          <p> - Jim Kuik</p>
         </div>
       </div>
 
       <div class="about-row">
         <div class="about-p3">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est delectus ullam quae rerum eligendi doloribus labore cumque quam soluta natus, debitis provident cupiditate voluptatem sapiente deserunt aliquid tempore quibusdam quis.</p>
+          <p>My life has slowly been leading me to the realization that my ability to learn can be trained and optimized. That it's not something we're necessarily born with or aquire magically.
+           It's a mind set, a commitment to a way of approaching life,<strong> and mostly it's hard work</strong>. These thoughts, though I didn't quite understand them yet, increasingly began to caputure my imagination and soon I devised a master plan.
+           </p>
+           <p>I quit my job in Pennsylvania (I had been unhappily grinding my way up the hospitality industry for the past 8+ years) and I found myself with a way plane ticket to Italy. I landed in Torino with only
+           the clothes I was wearing, a backpack with a few essentials, and a small amount of money I had saved up. I didn't know anyone, speak the language, or even have a place to sleep that night.
+           Like I said... "master plan". And just like that my journey began.</p>
         </div>
         <div class="about-img3">
-          <%= image_tag "logo.png", width: 200, height: 200, class: "avatar fade-in-right" %>
+          <%= image_tag "juan-in-moncalieri.JPG", width: 200, height: 200, class: "avatar fade-in-right" %>
         </div>
+      </div>
+      <div class="me-in-monca">
+        <p class="me-in-monca-text">This is me in Italy!</p>
+          <%= image_tag "arrow-up-fill.png", width: 120, height: 120, class: "arrow-img-monca" %>
       </div>
 
     </div>

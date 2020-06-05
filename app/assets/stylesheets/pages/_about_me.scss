@@ -9,7 +9,7 @@
   object-position: top;
 }
 
-.arrow-img {
+.arrow-img-me {
   transform: rotate(300deg);
 }
 
@@ -20,12 +20,40 @@
   transform: rotate(330deg);
 }
 
+.me-in-monca {
+  height: 50px;
+  position: relative;
+}
+
+.me-in-monca-text {
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 24px;
+  transform: rotate(350deg);
+  position: absolute;
+  right: 200px;
+  bottom: 40px;
+}
+
+.arrow-img-monca {
+  position: absolute;
+  right: 100px;
+  bottom: 40px;
+}
+
 @media only screen and (max-width: 600px) {
-  .arrow-img {
+  .arrow-img-me {
     display: none;
   }
 
   .this-is-me-text {
     display: contents;
+  }
+
+  .arrow-img-monca {
+    display: none;
+  }
+
+  .me-in-monca-text {
+    right: 240px;
   }
 }
