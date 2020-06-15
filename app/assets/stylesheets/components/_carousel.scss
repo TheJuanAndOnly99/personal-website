@@ -1,39 +1,92 @@
+.quedem-carousel-heading {
+	font-size: 32px;
+}
+
 .quedem-img {
-  display: flex;
-  justify-content: center;
-  height: 286px;
+	display: flex;
+	justify-content: center;
 }
 
 .quedem-img img {
-  width: 345px;
-  height: 286px;
+	height: 400px;
 }
 
-.container-quedem-carousel {
-  position: relative;
-  height: 600px;
+.vamos-img {
+	display: flex;
+	justify-content: center;
 }
 
-.carousel-control-next-icon, .carousel-control-prev-icon {
-  position: absolute;
-  left: 50px;
-  top: 240px;
+.vamos-img img {
+	height: 400px;
+}
+
+.qe-img {
+	display: flex;
+	justify-content: center;
+}
+
+.qe-img img {
+	height: 400px;
+}
+
+.container-quedem-carousel,
+.container-vamos-carousel {
+	position: relative;
+	height: Calc(100vh - 200px);
+	width: 100%;
+}
+
+.carousel-control-next-icon {
+	position: absolute;
+	left: 50px;
+	top: 240px;
+}
+
+.carousel-control-prev-icon {
+	position: absolute;
+	right: 50px;
+	top: 240px;
+}
+
+.vamos-control,
+.qe-control {
+	filter: invert(100%);
 }
 
 .carousel-indicators {
-  li{
-    background-color: gray;
-  }
-  .active{
-    background-color: $quedem;
-  }
+	position: absolute;
+	li {
+		background-color: gray;
+	}
+	.active {
+		background-color: #ffffff;
+	}
 }
 
+.vamos-indicators {
+	position: absolute;
+	li {
+		background-color: gray;
+	}
+	.active {
+		background-color: $vamos;
+	}
+}
+
+.quedem-indicators {
+	position: absolute;
+	li {
+		background-color: gray;
+	}
+	.active {
+		background-color: $quedem;
+	}
+}
 
 .tag-line h2 {
-  font-family: $body-font;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 48px;
-  line-height: 57px;
+	font-family: $body-font;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 57px;
 }

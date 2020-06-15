@@ -1,73 +1,80 @@
 h1 {
-  font-family: 'Raleway', sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 44px;
-  color: #3a4052;
+	font-family: 'Raleway', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 44px;
+	color: #3a4052;
 }
 
 h2 {
-  font-family: 'Raleway', sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 24px;
-  color: #FFFFFF;
+	font-family: 'Raleway', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 24px;
+	color: #ffffff;
 }
 
 h3 {
-  font-family: 'Raleway', sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 16px;
-  color: #FFFFFF;
+	font-family: 'Raleway', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 16px;
+	color: #ffffff;
 }
 
 .about-title {
-  margin: 32px 0;
+	padding: 32px 16px;
+}
+
+.project-title {
+	position: relative;
+	top: -20px;
+	padding: 32px 16px;
+	background-color: grey;
 }
 
 .about-container {
-  width: 80%;
-  margin: 0 auto;
-  // margin-top: 16px;
-  // padding: 16px;
-  // background: rgba(235,235,235,.6);
-  // box-shadow: 0px 0px 5px 0px;
+	width: 80%;
+	margin: 0 auto;
+	// margin-top: 16px;
+	// padding: 16px;
+	// background: rgba(235,235,235,.6);
+	// box-shadow: 0px 0px 5px 0px;
 }
 
 .about-row {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 32px 0px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 32px 0px;
 }
 
 .attention-grab {
-  margin-left: 50px;
-  margin-right: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
 .about-p1 {
-  margin-left: 50px;
-  margin-right: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
 .about-p2 {
-  text-align: end;
-  margin-right: 100px;
+	text-align: end;
+	margin-right: 100px;
 }
 
 .about-p3 {
-  text-indent: 50px;
-  margin-left: 50px;
+	text-indent: 50px;
+	margin-left: 50px;
 }
 
 .image-with-quote {
-  justify-content: space-around;
+	justify-content: space-around;
 }
 
 // .project-img:hover {
@@ -75,20 +82,17 @@ h3 {
 // }
 
 @media only screen and (max-width: 600px) {
-  .about-row {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  margin: 16px 0px;
-  }
+	.about-row {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		margin: 16px 0px;
+	}
 
-  .about-p2 p {
-  text-align: left;
-  margin-top: 32px;
-  }
-
+	.about-p2 p {
+		text-align: left;
+		margin-top: 32px;
+	}
 }
-
-

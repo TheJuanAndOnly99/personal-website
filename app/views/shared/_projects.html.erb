@@ -1,110 +1,24 @@
 <div id="my-projects" class="white-banner">
   <div class="container">
 
-    <div class="about-title text-center">
+    <div class="project-title text-center">
       <div class="title-and-cv">
-        <h1 id="projects-title">My Projetcs</h1>
+        <h1 id="projects-title">My Projects</h1>
       </div>
     </div>
 
     <div class="projects-container">
 
-      <div class="projects-row">
-        <h5 id="vamos-title">Vamos Barcelona</h5>
-          <p class="white-text" style="margin-left: 50px;">Social good app <strong><span style="color: #fb8500;">Vamos</span></strong> is my current passion project. At <span style="color: #fb8500;"><strong>Vamos</strong></span> our goal is to help our local community by making volunteer opportunities more accessible!</p>
-        <div class="projects-img3">
-          <%= image_tag "vamos.png", width: 800, height: 400, class: "project-img" %>
-        </div>
-        <div class="projects-p3">
-          <p class="white-text vamos-link">To see <strong><span style="color: #fb8500;">Vamos</span></strong> in action click <a href="http://www.vamosbarcelona.com" target="_blank"><strong><u>here</u></strong></a></p>
-        </div>
-      </div>
+      <%= render 'shared/vamos' %>
 
       <hr class="projects-line">
 
-      <div class="projects-row">
-        <h5 id="quedem-title">Quedem</h5>
-
-        <div class="projects-p1">
-          <p class="white-text">Social planning app <strong><span style="color: #8566aa;">Quedem</span></strong> was developed in two 1 week sprints by a team of 3 to make hanging out with your friends easier.</p>
-        </div>
-      </div>
-
-      <div class="container-quedem-carousel">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators" style="position: relative; bottom: -524px;">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="tag-line">
-                <h2>Find the best time and place to meet your friends.</h2>
-              </div>
-              <div class="quedem-img">
-                <%= image_tag "undraw_hang_out_h9ud.svg" %>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="tag-line">
-                <h2>Our polling system takes the hassle out of choosing the when and the where.</h2>
-              </div>
-              <div class="quedem-img">
-                <%= image_tag "undraw_online_friends_x73e.svg" %>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="tag-line">
-                <h2>So you can spend time hanging out with your friends, not planning to.</h2>
-              </div>
-              <div class="quedem-img">
-                <%= image_tag "undraw_horror_movie_3988.svg" %>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="tag-line">
-                <h2>Create your hangout now!</h2>
-              </div>
-              <div class="quedem-img">
-                <%= image_tag "undraw_having_fun_iais.svg" %>
-              </div>
-            </div>
-
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-      </div>
-
-      <div class="projects-row">
-        <p class="white-text">To see <strong><span style="color: #8566aa;">Quedem</span></strong> in action click <a href="https://quedem.herokuapp.com/" target="_blank"><strong><u>here</u></strong></a></p>
-      </div>
+      <%= render 'shared/quedem' %>
 
       <hr class="projects-line">
 
-      <div class="projects-row">
-        <h5>AirBnb Clone</h5>
-        <div class="projects-img2">
-          <%= image_tag "QuedemExperiences.png", width: 800, height: 400, class: "project-img" %>
-        </div>
-        <div class="projects-p2">
-          <p class="white-text">An AirBnB clone built with the Ruby on Rails framework. 1 week sprint, designed to gain experience</p>
-        </div>
-      </div>
+      <%= render 'shared/quedem_exp' %>
+    
     </div>
-
-
-    <div class="projects-row">
-      <h5>Much more to come! 😉</h5>
-    </div>
-
   </div>
 </div>
